@@ -9,12 +9,7 @@ phases:
         # install npm
         - npm install
         - npm install pm2@latest -g
-       
-  build:
-    commands:
-        # run build script
-        - npm start node.js
-     
+ 
 artifacts:
   # include all files required to run application
   # notably excluded is node_modules, as this will cause overwrite error on deploy
