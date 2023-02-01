@@ -13,4 +13,4 @@ sudo apt-get install -y nodejs
 npm install pm2@latest -g
 
 #_Download_Nginx
-apt-get -y install nginx
+apt-get install nginx -y
