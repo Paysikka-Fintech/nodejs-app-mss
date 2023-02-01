@@ -1,6 +1,7 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-
+#_Change_Working_Directory
+cd /home/ubuntu/server
 
 echo 'The following "npm" command runs your Node.js application'
 
